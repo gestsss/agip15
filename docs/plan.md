@@ -1,106 +1,113 @@
-# Project Plan
+# План выполнения работ
 
-## Overview
+## Общее описание
 
-This document describes the delivery plan for a small MVP project.
-The work is organized into two iterations with a fixed time limit per role.
-Sync time and communication overhead are included in estimates.
-
----
-
-## Constraints
-
-- Two iterations, 1.5 weeks each
-- Total project limit: 220 hours
-- Development roles have a limit of 40 hours per iteration
-- Scope is limited to MVP
-- Infrastructure, deployment, and quality assurance are included
+Данный документ описывает план выполнения работ по проекту.
+Работа организована в два спринта продолжительностью по 1.5 недели.
+Оценки включают время на синхронизации и коммуникации внутри команды.
 
 ---
 
-## Iteration 1 — Core flow and foundation
 
-**Goal:** deliver a working end-to-end flow with minimal functionality.
+## Спринт 1 - Основа и сквозной сценарий
 
-### Frontend (40 hours)
+**Цель:** реализовать базовый рабочий сценарий от входа пользователя до получения результата.
 
-- Project initialization and base structure — 6h  
-- Theme, fonts, and base variables — 6h  
-- Minimal UI components (buttons, inputs, typography) — 12h  
-- Onboarding screen — 6h  
-- Authentication forms — 6h  
-- Syncs and communication — 4h  
+### Frontend - 40 часов
 
-### Backend (40 hours)
-
-- Project initialization and base configuration — 6h  
-- Data models and reference structures — 6h  
-- Authentication API (sign in / sign up) — 10h  
-- Basic matching logic (rule-based) — 10h  
-- Syncs and communication — 4h  
-
-### Quality Assurance (18 hours)
-
-- Test plan and checklists — 6h  
-- Smoke testing of core flow — 10h  
-- Syncs — 2h  
-
-### Project Management (12 hours)
-
-- MVP requirements and acceptance criteria — 5h  
-- Iteration planning and task setup — 3h  
-- Coordination and syncs — 4h  
-
-**Iteration total:** 110 hours
+- инициализация проекта и базовая структура - 6 ч  
+- настройка темы, шрифтов и переменных - 6 ч  
+- создание минимального UI-kit (кнопки, инпуты, типографика) - 12 ч  
+- экран онбординга - 6 ч  
+- формы регистрации и входа - 6 ч  
+- синки и коммуникации - 4 ч  
 
 ---
 
-## Iteration 2 — Stabilization and delivery
+### Backend - 40 часов
 
-**Goal:** stabilize functionality and prepare the solution for review.
-
-### Frontend (38 hours)
-
-- Color selection screen — 10h  
-- Result view and content layout — 10h  
-- API integration and error handling — 8h  
-- UI fixes based on feedback — 6h  
-- Syncs — 4h  
-
-### Backend (37 hours)
-
-- Matching logic improvements and aggregation — 14h  
-- Input validation and error handling — 6h  
-- CI pipeline setup — 9h  
-- Staging deployment and verification — 6h  
-- Syncs — 2h  
-
-### Quality Assurance (24 hours)
-
-- Functional testing — 10h  
-- Authentication and error scenarios — 6h  
-- Regression testing — 6h  
-- Syncs — 2h  
-
-### Project Management (11 hours)
-
-- Feature acceptance — 5h  
-- Issue prioritization — 3h  
-- Demo, review, and syncs — 3h  
-
-**Iteration total:** 110 hours
+- инициализация проекта и базовая настройка - 6 ч  
+- подготовка структуры данных и справочников - 6 ч  
+- реализация логики регистрации и входа - 10 ч  
+- базовая логика подбора результата - 10 ч  
+- синки - 4 ч  
 
 ---
 
-## Summary
+### Качество - 18 часов
 
-| Role | Total hours |
-|-----|------------|
+- подготовка тест-плана и чек-листов - 6 ч  
+- проверка основного пользовательского сценария - 10 ч  
+- синки - 2 ч  
+
+---
+
+### Управление проектом - 12 часов
+
+- формирование требований MVP и критериев приёмки - 5 ч  
+- планирование спринта и постановка задач - 3 ч  
+- координация и синки - 4 ч  
+
+---
+
+**Итого по спринту:** 110 часов
+
+---
+
+## Спринт 2 - Доработка, стабилизация и поставка результата
+
+**Цель:** стабилизировать функциональность и подготовить решение к демонстрации.
+
+### Frontend - 38 часов
+
+- экран выбора цветовой палитры - 10 ч  
+- экран результатов и контент - 10 ч  
+- интеграция с сервером и обработка ошибок - 8 ч  
+- правки по результатам тестирования - 6 ч  
+- синки - 4 ч  
+
+---
+
+### Backend - 37 часов
+
+- доработка логики подбора и агрегации данных - 14 ч  
+- валидация входных данных и обработка ошибок - 6 ч  
+- настройка CI - 9 ч  
+- деплой в тестовое окружение и проверка - 6 ч  
+- синки - 2 ч  
+
+---
+
+### Качество - 24 часа
+
+- функциональное тестирование - 10 ч  
+- проверка авторизации и ошибок - 6 ч  
+- регрессионная проверка - 6 ч  
+- синки - 2 ч  
+
+---
+
+### Управление проектом - 11 часов
+
+- приёмка функциональности - 5 ч  
+- работа с дефектами и приоритетами - 3 ч  
+- демонстрация результата и синки - 3 ч  
+
+---
+
+**Итого по спринту:** 110 часов
+
+---
+
+## Сводная таблица
+
+| Роль | Всего часов |
+|-----|-------------|
 | Frontend | 78 |
 | Backend | 77 |
-| Quality Assurance | 42 |
-| Project Management | 23 |
-| **Planned total** | **220** |
+| Качество | 42 |
+| Управление проектом | 23 |
+| **Всего** | **220** |
 
-The plan intentionally keeps scope minimal and allows controlled adjustments
-without impacting the core user flow.
+---
+
